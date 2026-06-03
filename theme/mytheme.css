@@ -1,0 +1,185 @@
+/* @theme mytheme */
+
+@import 'default';
+
+:root {
+  --teal: #30B49A;
+  --teal-dark: #30B49A;
+  --white: #FFFFFF;
+  --text-dark: #1A1A1A;
+  --text-gray: #555555;
+  --purple: #A855C8;
+}
+
+/* ===========================
+   ベース（コンテンツスライド）
+   =========================== */
+section {
+  font-family: 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', sans-serif;
+  background: #FFFFFF;
+  color: var(--text-dark);
+  padding: 48px 56px 48px 56px;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* タイトル：ティール文字 + 左縦線 */
+section h1 {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--teal);
+  border-left: 5px solid var(--teal);
+  border-bottom: none;
+  padding-left: 16px;
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+
+section h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--teal);
+  border: none;
+  margin-bottom: 12px;
+}
+
+section h3 {
+  font-size: 20px;
+  color: var(--text-dark);
+  margin-bottom: 8px;
+}
+
+/* 出典・フッター */
+section footer {
+  position: absolute;
+  bottom: 28px;
+  left: 56px;
+  font-size: 14px;
+  color: var(--text-gray);
+}
+
+/* ページ番号 */
+section::after {
+  font-size: 24px;
+  color: var(--text-gray);
+}
+
+/* テーブル */
+table {
+  font-size: 18px;
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  background: var(--teal);
+  color: var(--white);
+  padding: 8px 12px;
+}
+td {
+  border: 1px solid #D1D5DB;
+  padding: 7px 12px;
+}
+tr:nth-child(even) td {
+  background: #F4FDFB;
+}
+
+/* コード */
+code {
+  background: #F0FBF8;
+  color: var(--teal-dark);
+  border-radius: 3px;
+  padding: 1px 5px;
+  font-size: 0.9em;
+}
+pre code {
+  color: var(--text-dark);
+}
+
+/* strong */
+strong {
+  /* color: var(--teal-dark); */
+}
+
+/* ===========================
+   タイトルスライド (class: title)
+   =========================== */
+section.title {
+  background: var(--teal);
+  color: var(--white);
+  justify-content: center;
+  padding: 60px 72px;
+}
+
+section.title h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: var(--white);
+  border-left: 5px solid var(--white);
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+section.title h2 {
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--white);
+  border-left: 5px solid var(--white);
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+section.title p {
+  font-size: 18px;
+  color: rgba(255,255,255,0.85);
+  margin-top: 40px;
+  margin-left: 0;
+}
+
+section.title footer {
+  color: rgba(255,255,255,0.85);
+  bottom: 32px;
+  right: 56px;
+  left: auto;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+section.title::after {
+  display: none;
+}
+
+/* ===========================
+   セクションスライド (class: section)
+   =========================== */
+section.section {
+  background: var(--teal);
+  color: var(--white);
+  justify-content: flex-end;
+  padding: 60px 72px;
+}
+
+section.section h1 {
+  font-size: 44px;
+  font-weight: 700;
+  color: var(--white);
+  border-left: 5px solid var(--white);
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+/* ===========================
+   注記バナー (class: note)
+   コンテンツスライドの右上に紫帯
+   =========================== */
+section.note::before {
+  content: attr(data-note);
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: var(--purple);
+  color: var(--white);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 6px 18px;
+}
