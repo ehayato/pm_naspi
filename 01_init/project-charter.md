@@ -180,7 +180,7 @@ HDD マウント → 差分バックアップ実行 → アンマウント
   | - | - | - |
   | Gemini | バイブコーディング | 無料で利用可能 |
   | Claude | バイブコーディング | 無料で利用可能 |
-  | Raspbian OS | Raspberry PiのOS | 無料で利用可能 |
+  | Raspberry Pi OS | Raspberry PiのOS (Debian系) | 無料で利用可能 |
   | Docker | コンテナ管理 | 無料で利用可能 |
   | Samba | SMBサーバー構築 | 無料で利用可能 |
   | rclone | クラウドストレージ同期 | 無料で利用可能 |
