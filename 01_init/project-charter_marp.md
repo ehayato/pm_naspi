@@ -116,7 +116,7 @@ HDD マウント → 差分バックアップ実行 → アンマウント
 - Raspberry Pi 4以上・外付け HDD が利用可能
 - クラウドストレージアカウント保有・rclone 連携可能
 - Discord サーバー・Bot トークン取得済み
-- Linux 基本操作・Python・ネットワーク基礎知識あり
+- Linux 基本操作・JavaScript・ネットワーク基礎知識あり
 
 ---
 

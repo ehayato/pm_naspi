@@ -43,7 +43,7 @@
 1. Linux（Raspberry Pi）システム管理・Docker運用
 2. Samba（SMB）によるネットワークストレージ設計と権限管理
 3. rclone bisyncを用いたクラウドストレージとの双方向同期設計
-4. Discord Bot（Python / discord.py）を用いたAPI駆動・非同期プログラミング
+4. Discord Bot（JavaScript / discord.js）を用いたAPI駆動・非同期プログラミング
 5. cronによるジョブスケジューリングとrsyncを用いたバックアップ設計
 6. バージョン管理・ドキュメント作成を含むソフトウェア工学の実践
 
@@ -125,7 +125,7 @@ HDD マウント → 差分バックアップ実行 → アンマウント
 - Raspberry Pi上でのDocker運用（Samba・Discord Bot）
 - Samba設定と認証・権限管理
 - rclone bisyncによるクラウドストレージとの双方向同期設定・自動化
-- Discord Bot追加コマンド実装（Python / discord.py）
+- Discord Bot追加コマンド実装（JavaScript / discord.js）
 - rsyncによる差分バックアップ設計・自動化
 - cronによるジョブスケジューリング
 - 基本的なセキュリティ対策（認証設定、`.env`管理）
@@ -222,7 +222,7 @@ HDD マウント → 差分バックアップ実行 → アンマウント
 - iPad・PC等のテスト端末が整備されている
 - クラウドストレージアカウントを保有し、rclone連携が可能
 - Discordサーバー・Botトークンが取得済み
-- Linux基本操作・Python・ネットワーク基礎知識を有する
+- Linux基本操作・JavaScript・ネットワーク基礎知識を有する
 - GitHubでのソースコード管理環境が整備されている
 
 ---
@@ -260,4 +260,4 @@ HDD マウント → 差分バックアップ実行 → アンマウント
 
 **プロジェクト憲章作成日：** 2026年6月2日
 
-**最終更新日：** 2026年6月9日
+**最終更新日：** 2026年6月11日
