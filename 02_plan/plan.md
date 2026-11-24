@@ -295,6 +295,8 @@
 - 障害・不具合の記録: [incident-log.md](../03_progress/incident-log.md)
 - テスト・検証の記録: [test-log.md](../03_progress/test-log.md)
 
+Raspberry Pi への移行と、本番モード（bisync）の検証の計画は、[04_migration](../04_migration/README.md) を参照。
+
 ### 19.1 マイルストーン別の状況
 
 | フェーズ | 状況 | 内容 |

@@ -14,3 +14,5 @@
 - `docs/restic-restore-test.md`: 復元テストの手順と記録
 - `docs/schedule.md`: 同期・バックアップの実行時刻と排他
 - `docs/discord-bot.md`: スラッシュコマンドの再登録、通知チャンネル
+
+移行と本番モードの検証の計画は、[04_migration](../04_migration/README.md) にある。
